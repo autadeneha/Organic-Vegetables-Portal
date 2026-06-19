@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: url('assets/img/background.avif') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .overlay-card {
+      background: rgba(0, 0, 0, 0.65); /* semi transparent black */
+      backdrop-filter: blur(6px);
+      border-radius: 12px;
+      color: white;
+    }
+
+    .form-control {
+      background-color: rgba(255,255,255,0.9);
+    }
+
+    .btn-custom {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn-custom:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container d-flex align-items-center justify-content-center" style="height:100vh;">
+  <div class="col-md-5">
+    <div class="card overlay-card shadow-lg p-4">
+
+      <h3 class="text-center mb-4">User Login</h3>
+      
+      <!-- KEEPING YOUR ORIGINAL FORM LOGIC -->
+      <form action="login.php" method="POST">
+
+        <div class="mb-3">
+          <label>Email</label>
+          <input type="email" name="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label>Password</label>
+          <input type="password" name="password" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn btn-custom w-100">Login</button>
+
+      </form>
+
+      <p class="text-center mt-3">
+        New user? 
+        <a href="register.html" class="text-warning">Register</a>
+      </p>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
