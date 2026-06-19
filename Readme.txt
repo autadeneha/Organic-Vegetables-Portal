@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: UpConstruction
-Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Developed a full-stack Organic Vegetable Portal using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL to build a responsive e-commerce platform that directly connects local farmers with consumers for the sale of fresh organic vegetables. The primary objective of the project was to support farmers by providing a digital marketplace that reduces dependency on middlemen, increases product visibility, and enables better profit opportunities while promoting healthy and sustainable food consumption among consumers. The platform includes features such as secure user authentication, session management, product management, cart functionality, CRUD operations, and MySQL database integration with a modern Bootstrap-based responsive interface. By digitizing the traditional vegetable selling process, the project improves accessibility, simplifies online purchasing, and enhances the overall customer experience. This project strengthened my practical knowledge in full-stack web development, frontend-backend integration, database management, debugging, and scalable web application development while demonstrating how technology can contribute to empowering farmers and supporting sustainable agriculture.
